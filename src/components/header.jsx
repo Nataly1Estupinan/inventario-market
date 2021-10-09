@@ -1,7 +1,9 @@
 import logo from "../Assets/logo.svg";
 import styles from "../styles/header.module.css";
 import Administrator from "./administrator";
+import Edit from "./edit";
 import Employee from "./employee";
+import Form from "./form";
 
 export default function Header() {
   return (
@@ -29,7 +31,9 @@ export default function Header() {
         </div>
       </header>
       {/* <Employee></Employee> */}
-      <Administrator></Administrator>
+      {/* <Administrator></Administrator> */}
+      <Form></Form>
+      {/* <Edit></Edit> */}
     </>
   );
 }

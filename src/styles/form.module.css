@@ -1,0 +1,66 @@
+.sectionForm {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-color: #eae8fe;
+  width: 100vw;
+  height: 100vh;
+}
+
+.formContainer {
+  background-color: white;
+  width: 479.08px;
+  box-shadow: 0px 8px 36px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+  padding: 45px;
+  margin: auto;
+  margin-top: 190px;
+}
+
+.formTitle {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+
+.form p {
+  color: #5a5a5a;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.form div {
+  margin-bottom: 20px;
+}
+
+.form input,
+.form textarea,
+.form button {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.form button {
+  color: white;
+  font-size: 14px;
+  background-color: #703bda;
+  padding: 10px 0;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .formContainer {
+    width: 90%;
+  }
+
+  .formTitle {
+    font-size: 22px;
+  }
+
+  .form button {
+    border-radius: 6px;
+  }
+}
