@@ -1,10 +1,6 @@
 .sectionForm {
-  position: absolute;
-  top: 0;
-  z-index: -1;
   background-color: #eae8fe;
-  width: 100vw;
-  height: 100vh;
+  padding: 40px 0;
 }
 
 .formContainer {
@@ -14,11 +10,11 @@
   border-radius: 14px;
   padding: 45px;
   margin: auto;
-  margin-top: 190px;
 }
 
 .formTitle {
   font-size: 25px;
+  margin-bottom: 40px;
   font-weight: bold;
   font-family: "Poppins";
 }
