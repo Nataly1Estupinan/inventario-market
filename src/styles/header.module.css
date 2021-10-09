@@ -1,0 +1,52 @@
+header {
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.personContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personInfo {
+  margin-right: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  color: #2e0286;
+}
+
+.category {
+  margin: 0;
+  font-size: 15px;
+  color: #979797;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 150px;
+  }
+
+  .personInfo {
+    margin-right: 10px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .category {
+    font-size: 13px;
+  }
+}
