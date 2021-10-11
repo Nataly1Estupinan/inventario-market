@@ -30,9 +30,9 @@ export default function Header() {
           </div>
         </div>
       </header>
-      {/* <Employee></Employee> */}
+      <Employee></Employee>
       {/* <Administrator></Administrator> */}
-      <Form></Form>
+      {/* <Form></Form> */}
       {/* <Edit></Edit> */}
     </>
   );
