@@ -1,11 +1,11 @@
-import Login from "./components/login";
+import CrudForm from "./components/Crud/crudForm";
 import Header from "./components/header";
-import Form from "./components/form";
+/* import Login from "./components/login"; */
 
 function App() {
   return (
     <>
-      <Header></Header>
+      <Header />
     </>
   );
 }

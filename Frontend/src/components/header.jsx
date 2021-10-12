@@ -1,9 +1,7 @@
 import logo from "../Assets/logo.svg";
 import styles from "../styles/header.module.css";
 import Administrator from "./administrator";
-import Edit from "./edit";
-import Employee from "./employee";
-import Form from "./form";
+import CrudApi from "./Crud/crudApi";
 
 export default function Header() {
   return (
@@ -30,10 +28,8 @@ export default function Header() {
           </div>
         </div>
       </header>
-      <Employee></Employee>
-      {/* <Administrator></Administrator> */}
-      {/* <Form></Form> */}
-      {/* <Edit></Edit> */}
+      <Administrator></Administrator>
+      <CrudApi />
     </>
   );
 }

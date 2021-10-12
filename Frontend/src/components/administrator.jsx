@@ -1,4 +1,5 @@
 import style from "../styles/administrator.module.css";
+import CrudApi from "./Crud/crudApi";
 
 export default function Administrator() {
   return (
