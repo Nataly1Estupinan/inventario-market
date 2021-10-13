@@ -10,6 +10,7 @@ export default function CrudTableRow({ el, setDataToEdit, deleteData }) {
     pro_date,
     pro_description,
   } = el;
+  console.log(el);
   return (
     <tr class="text-center align-middle">
       <td class="align-middle">{pro_id}</td>

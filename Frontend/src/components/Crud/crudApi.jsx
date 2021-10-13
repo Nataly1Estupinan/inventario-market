@@ -8,14 +8,15 @@ export default function CrudApi() {
   const [dataToEdit, setDataToEdit] = useState(null);
 
   let api = helpHttp();
-  //let url = "https://estasi1.herokuapp.com/productos/";
-  let url = "http://localhost:5000/Product";
+  let url = "https://estasi1.herokuapp.com/productos/";
+  //let url = "http://localhost:5000/Product";
 
   useEffect(() => {
     api.get(url).then((res) => {
-      console.log(res);
+      
       if (!res.ok) {
         setDb(res);
+        console.log(res)
       } else {
         setDb(null);
       }
