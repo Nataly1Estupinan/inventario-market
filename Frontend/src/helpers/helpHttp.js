@@ -11,6 +11,7 @@ export const helpHttp = () => {
     options.headers = options.headers
       ? { ...defaultHeader, ...options.headers }
       : defaultHeader;
+    //options.mode = "no-cors";
 
     options.body = JSON.stringify(options.body) || false;
     if (!options.body) delete options.body;

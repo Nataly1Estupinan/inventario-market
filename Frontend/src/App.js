@@ -1,11 +1,14 @@
-import CrudForm from "./components/Crud/crudForm";
+import Administrator from "./components/administrator";
 import Header from "./components/header";
+import Login from "./components/login";
 /* import Login from "./components/login"; */
 
 function App() {
   return (
     <>
+      <Login />
       <Header />
+      <Administrator />
     </>
   );
 }

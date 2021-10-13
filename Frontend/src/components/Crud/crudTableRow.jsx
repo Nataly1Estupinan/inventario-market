@@ -1,31 +1,25 @@
 //import styles from "../styles/table.module.css";
 
 export default function CrudTableRow({ el, setDataToEdit, deleteData }) {
-  let { id, name, category, supplier, stock, date, description } = el;
+  let {
+    pro_id,
+    pro_name,
+    pro_category,
+    pro_provider,
+    pro_existences,
+    pro_date,
+    pro_description,
+  } = el;
   return (
     <tr class="text-center align-middle">
-      <td scope="row" class="align-middle">
-        {id}
-      </td>
-      <td scope="row" class="align-middle">
-        {name}
-      </td>
-      <td scope="row" class="align-middle">
-        {category}
-      </td>
-      <td scope="row" class="align-middle">
-        {supplier}
-      </td>
-      <td scope="row" class="align-middle">
-        {stock}
-      </td>
-      <td scope="row" class="align-middle">
-        {date}
-      </td>
-      <td scope="row" class="align-middle">
-        {description}
-      </td>
-      <td scope="row" class="d-flex justify-content-around py-4">
+      <td class="align-middle">{pro_id}</td>
+      <td class="align-middle">{pro_name}</td>
+      <td class="align-middle">{pro_category}</td>
+      <td class="align-middle">{pro_provider}</td>
+      <td class="align-middle">{pro_existences}</td>
+      <td class="align-middle">{pro_date}</td>
+      <td class="align-middle">{pro_description}</td>
+      <td class="d-flex justify-content-around py-4">
         <box-icon
           name="edit"
           type="solid"
@@ -37,7 +31,7 @@ export default function CrudTableRow({ el, setDataToEdit, deleteData }) {
           name="trash-alt"
           type="solid"
           color="#703bda"
-          onClick={() => deleteData(id, name)}
+          onClick={() => deleteData(pro_id, pro_name)}
           style={{ cursor: "pointer" }}
         ></box-icon>
       </td>

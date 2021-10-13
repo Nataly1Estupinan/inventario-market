@@ -1,85 +1,40 @@
 {
   "inventory": [
     {
-      "id": 1,
-      "name": "Cebolla",
-      "category": "Vegetales",
-      "supplier": "Abastos",
-      "stock": "99",
-      "date": "02/08/21",
-      "description": "Quis enim tristique nibh mattis."
+      "pro_id": 1,
+      "pro_name": "Cebolla",
+      "pro_category": "Vegetales",
+      "pro_provider": "Abastos",
+      "pro_existences": "99",
+      "pro_date": "02/08/21",
+      "pro_description": "Quis enim tristique nibh mattis."
     },
     {
-      "id": 2,
-      "name": "Cebolla",
-      "category": "Vegetales",
-      "supplier": "Abastos",
-      "stock": "99",
-      "date": "02/08/21",
-      "description": "Quis enim tristique nibh mattis."
+      "pro_id": 2,
+      "pro_name": "Cebolla",
+      "pro_category": "Vegetales",
+      "pro_provider": "Abastos",
+      "pro_existences": "99",
+      "pro_date": "02/08/21",
+      "pro_description": "Quis enim tristique nibh mattis."
     },
     {
-      "id": 3,
-      "name": "Cebolla",
-      "category": "Vegetales",
-      "supplier": "Abastos",
-      "stock": "99",
-      "date": "02/08/21",
-      "description": "Quis enim tristique nibh mattis."
+      "pro_id": 3,
+      "pro_name": "Cebolla",
+      "pro_category": "Vegetales",
+      "pro_provider": "Abastos",
+      "pro_existences": "99",
+      "pro_date": "02/08/21",
+      "pro_description": "Quis enim tristique nibh mattis."
     },
     {
-      "id": 4,
-      "name": "Cebolla",
-      "category": "Aseo",
-      "supplier": "Abastos",
-      "stock": "99",
-      "date": "02/08/21",
-      "description": "Quis enim tristique nibh mattis."
-    },
-    {
-      "id": 5,
-      "name": "Cebolla",
-      "category": "Vegetales",
-      "supplier": "Abastos",
-      "stock": "99",
-      "date": "02/08/21",
-      "description": "Quis enim tristique nibh mattis."
-    },
-    {
-      "id": 6,
-      "name": "Cebolla",
-      "category": "Aseo",
-      "supplier": "Abastos",
-      "stock": "99",
-      "date": "02/08/21",
-      "description": "Quis enim tristique nibh mattis."
-    },
-    {
-      "id": 7,
-      "name": "hol,a",
-      "category": "456",
-      "supplier": "qw",
-      "stock": "1232",
-      "date": "2021-09-29",
-      "description": "123asdasdas"
-    },
-    {
-      "id": 8,
-      "name": "123123",
-      "category": "213",
-      "supplier": "213",
-      "stock": "213",
-      "date": "2021-10-28",
-      "description": "123123213"
-    },
-    {
-      "id": 9,
-      "name": "asdas",
-      "category": "qwe",
-      "supplier": "wqe",
-      "stock": "qwe",
-      "date": "2021-10-02",
-      "description": "qweqwe"
+      "pro_id": 4,
+      "pro_name": "Cebolla",
+      "pro_category": "Vegetales",
+      "pro_provider": "Abastos",
+      "pro_existences": "99",
+      "pro_date": "02/08/21",
+      "pro_description": "Quis enim tristique nibh mattis."
     }
   ]
 }

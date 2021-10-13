@@ -8,10 +8,12 @@ export default function CrudApi() {
   const [dataToEdit, setDataToEdit] = useState(null);
 
   let api = helpHttp();
+  //let url = "https://estasi1.herokuapp.com/productos/";
   let url = "http://localhost:5000/inventory";
 
   useEffect(() => {
     api.get(url).then((res) => {
+      console.log(res);
       if (!res.ok) {
         setDb(res);
       } else {
@@ -78,17 +80,17 @@ export default function CrudApi() {
 
   return (
     <>
-      {/* <CrudForm
-        createData={createData}
-        updateData={updateData}
-        dataToEdit={dataToEdit}
-        setDataToEdit={setDataToEdit}
-      />
-      <br /> */}
       <CrudTable
         data={db}
         setDataToEdit={setDataToEdit}
         deleteData={deleteData}
+      />
+
+      <CrudForm
+        createData={createData}
+        updateData={updateData}
+        dataToEdit={dataToEdit}
+        setDataToEdit={setDataToEdit}
       />
     </>
   );

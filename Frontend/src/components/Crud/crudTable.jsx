@@ -21,7 +21,7 @@ export default function CrudTable({ data, setDataToEdit, deleteData }) {
               {data.length > 0 ? (
                 data.map((el) => (
                   <CrudTableRow
-                    key={el.id}
+                    key={el.pro_id}
                     el={el}
                     setDataToEdit={setDataToEdit}
                     deleteData={deleteData}

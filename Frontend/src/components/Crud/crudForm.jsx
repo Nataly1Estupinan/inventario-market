@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import styles from "../../styles/form.module.css";
 
 const initialForm = {
-  id: null,
-  name: "",
-  category: "",
-  supplier: "",
-  stock: "",
-  date: "",
-  description: "",
+  pro_id: null,
+  pro_name: "",
+  pro_provider: "",
+  pro_existences: "",
+  pro_date: "",
+  pro_description: "",
+  pro_category: "",
 };
 
 export default function CrudForm({
@@ -41,7 +41,7 @@ export default function CrudForm({
       return;
     } */
 
-    if (form.id === null) {
+    if (form.pro_id === null) {
       createData(form);
       setForm(initialForm);
     } else {
@@ -58,7 +58,7 @@ export default function CrudForm({
     <section className={styles.sectionForm}>
       <div className={styles.formContainer}>
         <h2 className={styles.formTitle}>
-          {dataToEdit ? "Editar" : "Agregar producto"}
+          {dataToEdit ? "Editar producto" : "Agregar producto"}
         </h2>
         <form onSubmit={handleSubmit} className={styles.form}>
           <div>
@@ -66,7 +66,7 @@ export default function CrudForm({
             <input
               type="text"
               name="name"
-              value={form.name}
+              value={form.pro_name}
               onChange={handleChange}
             />
           </div>
@@ -76,7 +76,7 @@ export default function CrudForm({
             <input
               type="text"
               name="category"
-              value={form.category}
+              value={form.pro_category}
               onChange={handleChange}
             />
           </div>
@@ -86,7 +86,7 @@ export default function CrudForm({
             <input
               type="text"
               name="supplier"
-              value={form.supplier}
+              value={form.pro_provider}
               onChange={handleChange}
             />
           </div>
@@ -97,7 +97,7 @@ export default function CrudForm({
               type="text"
               name="stock"
               placeholder="Categoria"
-              value={form.stock}
+              value={form.pro_existences}
               onChange={handleChange}
             />
           </div>
@@ -107,7 +107,7 @@ export default function CrudForm({
             <input
               type="date"
               name="date"
-              value={form.date}
+              value={form.pro_date}
               onChange={handleChange}
             />
           </div>
@@ -117,7 +117,7 @@ export default function CrudForm({
             <input
               type="text"
               name="description"
-              value={form.description}
+              value={form.pro_description}
               onChange={handleChange}
             />
           </div>
