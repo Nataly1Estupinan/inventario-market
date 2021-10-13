@@ -9,7 +9,7 @@ export default function CrudApi() {
 
   let api = helpHttp();
   //let url = "https://estasi1.herokuapp.com/productos/";
-  let url = "http://localhost:5000/inventory";
+  let url = "http://localhost:5000/Product";
 
   useEffect(() => {
     api.get(url).then((res) => {
