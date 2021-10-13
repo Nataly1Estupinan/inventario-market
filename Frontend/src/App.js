@@ -1,11 +1,14 @@
-import Login from "./components/login";
+import Administrator from "./components/administrator";
 import Header from "./components/header";
-import Form from "./components/form";
+import Login from "./components/login";
+/* import Login from "./components/login"; */
 
 function App() {
   return (
     <>
-      <Header></Header>
+      <Login />
+      <Header />
+      <Administrator />
     </>
   );
 }

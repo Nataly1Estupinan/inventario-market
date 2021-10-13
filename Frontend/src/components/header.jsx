@@ -1,11 +1,8 @@
 import logo from "../Assets/logo.svg";
 import styles from "../styles/header.module.css";
-import Administrator from "./administrator";
-import Edit from "./edit";
-import Employee from "./employee";
-import Form from "./form";
+import React, { useState } from "react";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <>
       <header>
@@ -14,8 +11,8 @@ export default function Header() {
 
           <div className={styles.personContainer}>
             <div className={styles.personInfo}>
-              <p className={styles.name}>Laura Bozzo</p>
-              <p className={styles.category}>Empleado</p>
+              <p className={styles.name}>Usuario</p>
+              <p className={styles.category}>Administrador</p>
             </div>
             <div>
               <i
@@ -30,10 +27,6 @@ export default function Header() {
           </div>
         </div>
       </header>
-      <Employee></Employee>
-      {/* <Administrator></Administrator> */}
-      {/* <Form></Form> */}
-      {/* <Edit></Edit> */}
     </>
   );
 }
