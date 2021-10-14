@@ -38,18 +38,20 @@ export default function CrudTable({ data, setDataToEdit, deleteData }) {
               )}
             </tbody>   */}
 
-              <tbody className={styles.tBody}>
+<tbody className={styles.tBody}>
                 {
                   data.Product.map(p => (
                     <tr>
-                      <th>{p.pro_id}</th>
-                      <th>{p.pro_name}</th>    
-                      <th>{p.pro_category}</th>    
+                     <th>{p.pro_id}</th>
+                     <th>{p.pro_name}</th>    
+                        
+                     <th>{p.pro_category}</th>    
                       <th>s</th>
                       <th>{p.pro_existences}</th>    
+                       
                       <th>{p.pro_date}</th>    
                       <th>{p.pro_description}</th>    
-                      <th>Delete, add</th>                        
+                      <th>Delete, add</th>                    
                     </tr>
                   ))
                 }
